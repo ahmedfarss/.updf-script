@@ -1,8 +1,0 @@
-[General]
-bypass-system = true
-
-[MITM]
-hostname = api.updf.com
-
-[Script]
-type=http-response,script-path=https://yourgithub.com/updf.js,pattern=https://api.updf.com/*,requires-body=true
